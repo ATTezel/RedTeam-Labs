@@ -34,7 +34,7 @@ Simulate an ethical hacking scenario by accessing a vulnerable website and extra
 
 ## 📷 Screenshot
 
-
+https://github.com/ATTezel/RedTeam-Labs/blob/main/Screen%20Shot%202025-05-21%20at%2013.20.31.png
 
 ---
 
