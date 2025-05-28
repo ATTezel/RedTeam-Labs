@@ -66,3 +66,15 @@ If you're following along: feel free to fork, contribute or ask questions!
 > Let’s break things — the right way.
 # RedTeam-Labs
 My journey into offensive security, red teaming, and ethical hacking labs.
+
+---
+
+##  What I Learned So Far
+
+- Hands-on experience with Kali Linux and Metasploitable2 lab environments
+- Conducted port scanning and service enumeration using Nmap
+- Exploited real vulnerabilities (vsftpd 2.3.4 backdoor)
+- Gained root access and practiced basic post-exploitation techniques
+- Documented attack steps like a professional red team report
+- Built a solid base for advanced labs (privilege escalation, pivoting, etc.)
+
