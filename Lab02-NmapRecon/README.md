@@ -42,8 +42,20 @@ Recognized the importance of recon before exploitation
 ---
 
 ## Screenshot
-https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.27.38.png
 
+Below is a screenshot showing the open ports and running services discovered using `nmap` on the Metasploitable2 target:
+
+![Nmap Scan Result]([../../Screen%20Shot%202025-05-23%20at%2020.27.08.png](https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.27.08.png)
+)
+
+Additionally, the following screenshot captures the active service bindings and port status for deeper enumeration:
+
+![Listening Ports]([../../Screen%20Shot%202025-05-23%20at%2020.27.38.png](https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.27.38.png))
+
+https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.20.14.png
+
+
+https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.25.37.png
 
 
 📅 Date
