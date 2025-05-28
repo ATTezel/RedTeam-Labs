@@ -9,13 +9,13 @@
 
 ---
 
-## 🔍 Objective
+##  Objective
 
 Simulate an ethical hacking scenario by accessing a vulnerable website and extracting internal employee information using common red team techniques.
 
 ---
 
-## 🧠 What I Did
+##  What I Did
 
 - Understood the role of red teamers and penetration testers
 - Learned the concept of ethical hacking in real-world simulation
@@ -24,7 +24,7 @@ Simulate an ethical hacking scenario by accessing a vulnerable website and extra
 
 ---
 
-## 💡 Takeaways
+##  Takeaways
 
 - Red Teaming is not just about tools — it’s a mindset.
 - Identifying exploitable logic can be as powerful as finding a vulnerability.
@@ -32,12 +32,20 @@ Simulate an ethical hacking scenario by accessing a vulnerable website and extra
 
 ---
 
-## 📷 Screenshot
+##  Screenshot
 
 https://github.com/ATTezel/RedTeam-Labs/blob/main/Screen%20Shot%202025-05-21%20at%2013.20.31.png
 
 ---
 
-## 🗓️ Date
+##  What I Learned
+
+- Gained first exposure to red teaming mindset and ethical hacking
+- Understood how vulnerable endpoints can leak sensitive internal info
+- Learned to analyze simulated employee data like a real engagement
+
+---
+
+##  Date
 
 21 May 2025
