@@ -42,6 +42,8 @@ Recognized the importance of recon before exploitation
 ---
 
 ## Screenshot
+https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.27.38.png
+
 
 
 📅 Date
