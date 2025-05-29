@@ -26,7 +26,7 @@ Nmap version 4.53 is installed with the SUID bit set. This version allows execut
    id
 
 ## Screenshot
-![Nmap Privilege Escalation](../Screen Shot 2025-05-29 at 15.36.53.png)
+![Nmap Privilege Escalation](https://github.com/ATTezel/RedTeam-Labs/blob/main/lab5/Screen%20Shot%202025-05-29%20at%2015.45.28.png)
 
 ## What I Learned
 Learned how SUID binaries can be exploited for local privilege escalation
