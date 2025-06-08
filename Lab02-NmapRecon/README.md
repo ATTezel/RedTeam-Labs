@@ -52,10 +52,10 @@ Additionally, the following screenshot captures the active service bindings and 
 
 ![Listening Ports](https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.27.38.png))
 
-https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.20.14.png
+![](https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.20.14.png)
 
 
-https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.25.37.png
+![](https://github.com/ATTezel/RedTeam-Labs/blob/main/lab2/Screen%20Shot%202025-05-23%20at%2020.25.37.png)
 
 
 📅 Date
