@@ -80,18 +80,25 @@ Despite creative attempts using pty, nmap, shell.php, and find, no working LPE p
 
 ## Screenshots
 
-1. 
+1. ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab09/Screen%20Shot%202025-06-11%20at%2019.11.00.png)
 
+2. ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab09/Screen%20Shot%202025-06-11%20at%2023.08.05.png)
 
-2. 
+3. ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab09/Screen%20Shot%202025-06-12%20at%2020.01.50.png)
 
+4. ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab09/Screen%20Shot%202025-06-12%20at%2020.14.53.png)
 
-3. 
+5. ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab09/Screen%20Shot%202025-06-12%20at%2020.15.06.png)
 
+6. ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab09/Screen%20Shot%202025-06-12%20at%2020.37.21.png)
 
-4. 
+7. ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab09/Screen%20Shot%202025-06-12%20at%2020.46.23.png)
 
+8. ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab09/Screen%20Shot%202025-06-13%20at%2001.25.26.png)
 
+9. ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab09/Screen%20Shot%202025-06-13%20at%2002.12.24.png)
+
+10. ![](https://github.com/ATTezel/RedTeam-Labs/blob/main/Lab09/Screen%20Shot%202025-06-13%20at%2002.14.57.png)
 
 
 ---
