@@ -1,25 +1,28 @@
+# 🧨 Lab04 – Attacking SMB via Samba Usermap Script
+
+> **Date:** 28 May 2025  
+> **Target:** Metasploitable2 – SMB Service  
+> **Vulnerability:** Samba `usermap_script` misconfiguration  
+> **Tool Used:** Metasploit Framework
 
 ---
 
-##  Lab04 – Enumerating & Attacking SMB with Samba Usermap Script
+## 🛡️ Description
 
-```markdown
-# Lab04 – Enumerating & Attacking SMB with Samba Usermap Script
-```
----
-
-##  Objective
-Explore vulnerabilities in the Samba service and attempt exploitation via the usermap_script module.
+This lab targets a known misconfiguration in **Samba** that can lead to unauthenticated remote code execution via `user.map` script injection. The focus is to understand how **Server Message Block (SMB)** services expose Linux systems when poorly configured, and how attackers can exploit legacy setups to gain root access.
 
 ---
 
-##  Tools
-- Metasploit Framework
-- Enum4linux (Optional)
+## 🎯 Target System
+
+- Metasploitable2 VM  
+- SMB ports open: `139`, `445`  
+- Vulnerable Samba version with usermap misconfig enabled
 
 ---
 
-##  Exploit Used
+## 🧨 Exploitation Steps
+
 ```bash
 use exploit/multi/samba/usermap_script
 set RHOSTS 192.168.56.101
@@ -30,19 +33,27 @@ run
 ```
 ---
 
-## Result
-Exploit attempt completed, but no session was created
-
-Demonstrated post-exploitation validation (whoami, id, hostname)
+## 📊 Result
+- ✅ Samba ports were identified and vulnerable version confirmed
+- ⚠️ Exploit execution completed, but no shell session was opened
+- ✅ Post-exploitation commands were attempted (whoami, id, hostname)
+- 📁 /etc/passwd contents were accessed after manual interaction
 
 ---
 
-## What I Learned
-Gained insight into SMB vulnerabilities and misconfigurations
+## 📊 Real-World Relevance
+Samba misconfigurations still exist in internal corporate networks, especially where legacy systems are used. Even if an exploit fails to produce a session, the process of enumerating SMB shares and testing payloads is directly applicable to internal penetration tests and CTF-style red team exercises.
 
-Understood the role of payload compatibility and listener binding
+---
 
-Learned how to troubleshoot and document failed attempts
+## 🧠 What I Learned
+How SMB misconfigurations in Samba can be exploited remotely
+
+Metasploit’s module structure and how to customize payloads for compatibility
+
+The importance of manual validation, even if auto-exploit fails
+
+How to troubleshoot reverse shell issues (LHOST, firewalls, payload mismatch)
 
 ---
 
@@ -64,5 +75,11 @@ User enumeration after gaining access, showing contents of `/etc/passwd`:
 
 ---
 
-## Date
-28 May 2025
+## 📁 Notes
+- Even partial success is valuable in red team labs
+
+- Manual recon + enumeration can lead to privilege escalation paths
+
+- Exploits may fail due to network listener misconfig or payload incompatibility
+
+- Always validate post-exploitation access with standard Linux commands
